@@ -17,6 +17,11 @@ This repository provides a modular data processing pipeline designed to convert 
 ## Methodology
 This pipeline follows the theoretical framework established for the SWOT mission. It leverages the Prior River Database (PRD) for physical constraints and utilizes Manning's Equation for discharge inversion.
 
+## References
+SWOT Product Description Document: Level 2 KaRIn High Rate River Single Pass Vector (L2_HR_RiverSP) Data Product, 2025.
+
+Altenau et al., (2021) The Surface Water and Ocean Topography (SWOT) Mission River Database (SWORD): A Global River Network for Satellite Data Products. Water Resources Research.
+
 ## Installation
 1. Clone the repository: 
    `git clone https://github.com/meetdand2345-sketch/swot-river-discharge-estimation.git`
@@ -29,7 +34,4 @@ Execute the entire pipeline by running the orchestrator from the root directory:
 ```bash
 python main.py
 
-## References
-SWOT Product Description Document: Level 2 KaRIn High Rate River Single Pass Vector (L2_HR_RiverSP) Data Product, 2025.
 
-Altenau et al., (2021) The Surface Water and Ocean Topography (SWOT) Mission River Database (SWORD): A Global River Network for Satellite Data Products. Water Resources Research.
